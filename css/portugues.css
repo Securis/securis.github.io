@@ -1,0 +1,9 @@
+.portugues {
+	display:block;
+}
+li .portugues {
+	display:inline;
+}
+.english {
+	display:none;
+}

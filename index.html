@@ -23,7 +23,7 @@
     <link href="css/portugues.css" rel="alternate stylesheet" type="text/css" title="alternate">
 
 </head>
-<body >
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
     <!--NAVIGATION-->
@@ -37,20 +37,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="navOption" href="#Cover">Securis</a>
+                <a class="navbar-brand" id="navHome" href="#Cover">Securis</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="javascript:chooseStyle('none', 60)">ENG</a></li>
-                    <li><a href="javascript:chooseStyle('alternate', 60)">PT</a></li>
+                    <li class="langOption"><a href="javascript:chooseStyle('none', 60)">ENG</a></li>
+                    <li class="langOption"><a href="javascript:chooseStyle('alternate', 60)">PT</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="#about"><span class="english">About</span><span class="portugues">Sobre</span></a></li>
-                    <li><a class="page-scroll" href="#fatima">Fátima</a></li>
-                    <li><a class="page-scroll" href="#contact"><span class="english">Contact</span><span class="portugues">Contacto</span></a> </li>
+                    <li class="navOption"><a class="page-scroll" href="#about"><span class="english">About</span><span class="portugues">Sobre</span></a></li>
+                    <li class="navOption"><a class="page-scroll" href="#fatima">Fátima</a></li>
+                    <li class="navOption"><a class="page-scroll" href="#contact"><span class="english">Contact</span><span class="portugues">Contacto</span></a> </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -58,13 +58,12 @@
     </nav>
 
     <!--COVER-->
-    <header>
+    <header id="Cover">
         <div class="header-content">
             <div class="header-text">
                 <h1 id="homeHeading">Catchup phrase</h1>
                 <hr>
                 <p>More explanation</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
@@ -76,7 +75,6 @@
                     <h2 class="section-heading">Text!</h2>
                     <hr class="light">
                     <p class="text-faded">Text</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
         </div>
@@ -89,7 +87,6 @@
                     <h2 class="section-heading">Text!</h2>
                     <hr class="light">
                     <p class="text-faded">Text</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
         </div>

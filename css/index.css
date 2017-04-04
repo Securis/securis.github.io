@@ -1,16 +1,26 @@
 .portugues {
 	display:none;
 }
+
+/*BACKGROUND*/
 .blueBG {
 	background-color: #84b5f1;
 }
+.darkBlueBG {
+  background-color: #1a5193;
+  color: white;
+}
+.darkBG {
+  background-color: #222222;
+  color: white;
+}
+
 
 hr {
   border-color: white;
   border-width: 2px;
   max-width: 200px;
 }
-
 
 html,
 body {
@@ -133,6 +143,23 @@ header .header-content .header-text p {
 }
 @media (min-width: 768px) {
   header {
+    min-height: 100%;
+  }
+ }
+
+ /*SECURIS*/
+#securis {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../resources/travel.jpg');
+	text-align: center;
+	color: white;
+}
+@media (min-width: 768px) {
+  #securis {
     min-height: 100%;
   }
  }

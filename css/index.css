@@ -67,7 +67,10 @@ body {
 	}
 
 	.navbar-default .nav > li > a,
-	.navbar-default .nav > li > a:focus {
+	.navbar-default .nav > li > a:focus,
+	.navbar-default .navbar-nav>.open>a, 
+	.navbar-default .navbar-nav>.open>a:focus, 
+	.navbar-default .navbar-nav>.open>a:hover {
 		background-color: transparent;
 		color: white
 	}
@@ -76,6 +79,7 @@ body {
 		background-color: transparent;
 		color: #84b5f1;
 	}
+
 }
 
 /*HEADER*/

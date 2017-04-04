@@ -42,16 +42,26 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="langOption"><a href="javascript:chooseStyle('none', 60)">ENG</a></li>
-                    <li class="langOption"><a href="javascript:chooseStyle('alternate', 60)">PT</a></li>
-                </ul>
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="navOption"><a class="page-scroll" href="#about"><span class="english">About</span><span class="portugues">Sobre</span></a></li>
                     <li class="navOption"><a class="page-scroll" href="#fatima">Fátima</a></li>
                     <li class="navOption"><a class="page-scroll" href="#contact"><span class="english">Contact</span><span class="portugues">Contacto</span></a> </li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          <span class="english">Language</span><span class="portugues">Linguagem</span><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="langOption">
+                                <a href="javascript:chooseStyle('none', 60)">English <span class="english glyphicon glyphicon-ok"></span></a>
+                            </li>
+                            <li class="langOption">
+                                <a href="javascript:chooseStyle('alternate', 60)">Português <span class="portugues glyphicon glyphicon-ok"></span></a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
+
             </div>
             <!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

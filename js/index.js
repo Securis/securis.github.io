@@ -10,14 +10,7 @@ $(function() {
         // add class to the one we clicked
         $(this).addClass("active");
     });
-
-
-    $(".langOption").click(function() {
-        // remove classes from all
-        $(".langOption").removeClass("active");
-        // add class to the one we clicked
-        $(this).addClass("active");
-    });   
+  
 });
 
 

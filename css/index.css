@@ -22,6 +22,12 @@ hr {
   max-width: 200px;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
 html,
 body {
   height: 100%;
@@ -43,7 +49,7 @@ section {
 .navbar-default .navbar-header .navbar-brand {
 	color: white;
 	font-weight: 600;
-	text-transform: uppercase;
+	text-transform: smallcaps;
 	font-size: 24px;	
 }
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -163,3 +169,26 @@ header .header-content .header-text p {
     min-height: 100%;
   }
  }
+
+
+/*CONTACTS*/
+#contact h3 a{
+	color: #f48942;
+}
+
+.social-media a {
+	display:block;
+	height:80px;
+	width:80px;
+	line-height:80px;
+	font-size:40px;
+	border-radius:100%;
+	color:white;
+}
+
+#twitter a{background-color:#1da1f2}
+#twitter a:hover{background-color:#0d95e8}
+#facebook a{background-color:#3b5998}
+#facebook a:hover{background-color:#344e86}
+#google-plus a{background-color:#dd4b39}
+#google-plus a:hover{background-color:#d73925}

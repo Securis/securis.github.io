@@ -22,6 +22,10 @@ hr {
   max-width: 200px;
 }
 
+hr.dark {
+  border-color: black;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -170,6 +174,22 @@ header .header-content .header-text p {
   }
  }
 
+
+
+
+
+
+
+/*TEAM*/
+.team-member{text-align:center;margin-bottom:50px}
+.team-member img{margin:0 auto;border:7px solid black}
+.team-member h4{margin-top:25px;margin-bottom:0;text-transform:none}
+.team-member p{margin-top:0}aside
+
+#team #list-awards img,
+.award img{
+	margin: 0 auto;
+}
 
 /*CONTACTS*/
 #contact h3 a{

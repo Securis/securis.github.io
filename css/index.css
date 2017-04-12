@@ -53,7 +53,7 @@ section {
 .navbar-default .navbar-header .navbar-brand {
 	color: white;
 	font-weight: 600;
-	text-transform: smallcaps;
+	font-variant: small-caps;
 	font-size: 24px;	
 }
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -128,16 +128,16 @@ header {
 	color: white;
 	}
 header .header-text {
-	position: relative;
-	text-align: center;
-	padding: 250px 100px 200px 100px;
-	width: 100%;
+	//position: relative;
+	//text-align: center;
+	padding: 150px 100px 200px 100px;
+	//width: 100%;
 }
 header .header-content .header-text h1 {
 	font-weight: 600;
-	text-transform: uppercase;
-	margin-top: 0;
-	margin-bottom: 0;
+	font-variant: small-caps;
+	//margin-top: 0;
+	//margin-bottom: 0;
 	font-size: 30px;
 }
 
@@ -149,9 +149,13 @@ header .header-content .header-text p {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.8);
   font-size: 20px;
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
   background-color: rgba(0, 0, 0, 0.25);
 }
+header h1 a{
+	color: white;
+}
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;

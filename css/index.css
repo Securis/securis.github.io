@@ -150,7 +150,7 @@ header .header-content .header-text p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 20px;
   //margin-bottom: 50px;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 header h1 a{
 	color: white;
@@ -185,16 +185,23 @@ header h1 a{
 	text-align: center;
 	color: white;
 }
+
+#securis .text-content {
+	padding: 50px;
+}
+
+#securis .text-content p{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
 @media (min-width: 768px) {
   #securis {
     min-height: 100%;
   }
- }
-
-
-
-
-
+  #securis .text-content {
+	padding: 120px;
+  }
+}
 
 
 /*TEAM*/

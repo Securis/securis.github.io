@@ -27,7 +27,7 @@ hr.dark {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -134,11 +134,11 @@ header .header-text {
 	width: 100%;
 }
 header .header-content .header-text h1 {
-	font-weight: 800;
+	font-weight: 600;
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 50px;
+	font-size: 30px;
 }
 
 header .header-content .header-text hr {
@@ -146,15 +146,26 @@ header .header-content .header-text hr {
 }
 
 header .header-content .header-text p {
-  font-weight: 500;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 @media (min-width: 768px) {
   header {
     min-height: 100%;
   }
+
+  header .header-content .header-text h1 {
+	font-weight: 800;
+	font-size: 50px;
+  }
+  header .header-content .header-text p {
+	  font-weight: 500;
+	  font-size: 24px;
+	}
+
  }
 
  /*SECURIS*/

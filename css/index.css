@@ -2,18 +2,6 @@
 	display:none;
 }
 
-/*BACKGROUND*/
-.blueBG {
-	background-color: #84b5f1;
-}
-.darkBlueBG {
-  background-color: #1a5193;
-  color: white;
-}
-.darkBG {
-  background-color: #222222;
-  color: white;
-}
 
 
 hr {
@@ -43,6 +31,17 @@ body {
 section {
   padding: 100px 0;
 }
+
+/*BACKGROUND*/
+.blueBG {
+	background-color: #84b5f1;
+	color: white;
+}
+.darkBlueBG {
+  background-color: #1a5193;
+  color: white;
+}
+
 
 /*NAVBAR*/
 .navbar-default {
@@ -174,6 +173,11 @@ header h1 a{
 
  }
 
+/*DOWNLOAD*/
+
+.download-link{text-align:center;margin-bottom:25px; }
+//.download-link a{margin: 0 auto;padding: 15px 0 15px 0;}
+
  /*SECURIS*/
 #securis {
 	position: relative;
@@ -211,8 +215,7 @@ header h1 a{
 .team-member p{margin-top:0}aside
 
 .award{text-align:center;margin-bottom:50px; }
-.award img{margin: 0 auto;padding: 15px 0 15px 0;
-}
+.award img{margin: 0 auto;padding: 15px 0 15px 0;}
 
 /*CONTACTS*/
 #contact h3 a{

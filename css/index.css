@@ -181,6 +181,9 @@ header .header-content .header-text p {
 header h1 a{
 	color: white;
 }
+header h1 a:hover{
+	color: #f48942;
+}
 
 @media (min-width: 768px) {
   header {

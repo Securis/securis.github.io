@@ -55,6 +55,7 @@ section {
   background-color: #1a5193;
   //color: white;
   border-color: rgba(34, 34, 34, 0.05);
+  width: 100%;
 }
 .navbar-default .navbar-header .navbar-brand {
 	color: white;

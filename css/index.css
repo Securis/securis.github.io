@@ -57,16 +57,16 @@ section {
   border-color: rgba(34, 34, 34, 0.05);
   width: 100%;
 }
-.navbar-default .navbar-header .navbar-brand {
-	color: white;
-	font-weight: 600;
-	font-variant: small-caps;
-	font-size: 24px;	
+//.navbar-default .navbar-header .navbar-brand {
+//	color: white;
+//	font-weight: 600;
+//	font-variant: small-caps;
+//	font-size: 24px;	
 }
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-  color: #f48942;
-}
+//.navbar-default .navbar-header .navbar-brand:hover,
+//.navbar-default .navbar-header .navbar-brand:focus {
+//  color: #f48942;
+//}
 .navbar-default .navbar-header .navbar-toggle .icon-bar{
 	background-color: white;
 }
@@ -179,13 +179,24 @@ header .header-content .header-text p {
   //margin-bottom: 50px;
   background-color: rgba(0, 0, 0, 0.4);
 }
-header h1 a{
+header h1 a,
+header .bottom-align-text a{
 	color: white;
 }
 header h1 a:hover{
 	color: #f48942;
 }
-
+header .bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+}
+header .bottom-align-text p{
+  font-weight: 400;
+  color: white;
+  font-size: 12px;
+}
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -205,22 +216,21 @@ header h1 a:hover{
  }
 
 /*FEATURES*/
-.screen {
-	position: relative;
-	//height: 0;
-	//overflow: hidden;
-	//padding-bottom:100%;
-}
 .screen img{
 	margin:0 auto;
+	padding-top: 50px;
 }
 
 .feature-item{text-align:center;margin-bottom:50px; }
 .feature-item img{margin: 0 auto;padding: 20px 0 0px 0;}
+.feature-item h3{
+	margin-top:10px;
+	margin-bottom:0;
+	text-transform:none}
 
 .feature-icon {
-	width: 80px;
-	height: 80px;
+	width: 65px;
+	height: 85px;
 }
 
 /*DOWNLOAD*/

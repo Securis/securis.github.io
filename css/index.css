@@ -257,10 +257,10 @@ header h1 a:hover{
 
 
 /*TEAM*/
-.team-member, .team-member-photo{
+.team-member{
 	text-align:center;
-	//margin-bottom:50px}
-.team-member-photo img{
+	margin-bottom:50px}
+.team-member img{
 	margin:0 auto;
 	border:7px solid black}
 .team-member h4{
